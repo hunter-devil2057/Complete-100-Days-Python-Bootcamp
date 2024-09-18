@@ -1,0 +1,59 @@
+Create a step-by-step guide for writing and executing a "Hello World" program using Notepad. 
+
+Step 1: Install Python
+Before you start, ensure that Python is installed on your system. If it’s not installed:
+1. Download Python:
+   - Go to the [official Python website](https://www.python.org/downloads/).
+   - Download the latest version of Python for Windows.
+
+2. Install Python:
+   - Run the downloaded installer.
+   - Important: Check the box labeled "Add Python to PATH" before clicking "Install Now."
+   - Complete the installation process by following the prompts.
+
+
+Step 2: Open Notepad
+1. Open Notepad:
+   - Press `Win + R` to open the Run dialog.
+   - Type `notepad` and press `Enter` to open Notepad.
+
+
+Step 3: Write the "Hello World" Program
+1. Enter the Code:
+   - In Notepad, type the following Python code:
+     print("Hello, World!")
+   - This code is a simple Python script that prints "Hello, World!" to the screen.
+
+Step 4: Save the File
+1. Save the File:
+   - Go to `File` > `Save As...` in Notepad.
+   - In the Save As dialog:
+     - Select Location: Choose a directory where you want to save the file. For example, `C:\Users\YourUsername\Documents`.
+     - File Name: Enter `hello.py` (make sure the file extension is `.py`).
+     - Save as Type: Select `All Files` from the dropdown.
+     - Encoding: Ensure it is set to `UTF-8` (usually the default).
+   - Click `Save`.
+
+
+Step 5: Open Command Prompt
+1. Open CMD:
+   - Press `Win + R` to open the Run dialog.
+   - Type `cmd` and press `Enter` to open the Command Prompt.
+
+
+Step 6: Navigate to Your File Directory
+1. Change Directory:
+   - In Command Prompt, use the `cd` command to navigate to the directory where you saved `hello.py`. For example:
+     cd C:\Users\YourUsername\Documents
+   - Replace `YourUsername` with your actual Windows username.
+
+
+Step 7: Run the Python Program
+1. Execute the Python File:
+   - In Command Prompt, type the following command:
+     python hello.py
+   - Press `Enter`.
+
+2. View the Output:
+   - You should see the output:
+     Hello, World!
