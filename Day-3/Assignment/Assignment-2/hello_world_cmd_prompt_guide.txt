@@ -1,0 +1,48 @@
+Write a step-by-step guide for creating and running a "Hello World" program using Python through the CMD Prompt.
+Step 1: Install Python
+1. Download Python:
+   - Go to the [official Python website](https://www.python.org/downloads/).
+   - Download the latest version of Python for Windows.
+2. Install Python:
+   - Run the downloaded installer.
+   - Important: Check the box labeled "Add Python to PATH" before clicking "Install Now."
+   - Complete the installation process by following the prompts.
+
+Step 2: Open Command Prompt
+1. Open CMD:
+   - Press `Win + R` to open the Run dialog.
+   - Type `cmd` and press `Enter` to open the Command Prompt.
+
+Step 3: Verify Python Installation
+1. Check Python Version:
+   - In the Command Prompt, type `python --version` or `python -V` and press `Enter`.
+   - You should see the version number of Python you installed. For example, `Python 3.11.0`.
+2. Check PIP Version (Optional):
+   - Type `pip --version` and press `Enter` to ensure PIP (Python package manager) is installed.
+
+Step 4: Create the "Hello World" Program
+1. Navigate to Your Desired Directory:
+   - Use the `cd` command to change to the directory where you want to create your Python file. For example:
+     cd C:\Users\YourUsername\Documents
+   - Replace `YourUsername` with your actual Windows username.
+2. Create a New Python File:
+   - You can use a simple text editor to create the file. For this example, we'll use Notepad.
+   - In the Command Prompt, type:
+     notepad hello.py
+   - If prompted to create a new file, click "Yes."
+3. Write the Code:
+   - In Notepad, type the following code:
+     print("Hello, World!")
+   - Save the file and close Notepad.
+
+Step 5: Run the "Hello World" Program
+
+1. Execute the Python File:
+   - Back in the Command Prompt, make sure you’re still in the directory where you saved `hello.py`.
+   - Run the program by typing:
+     python hello.py
+   - Press `Enter`.
+
+2. View the Output:
+   - You should see the output:
+     Hello, World!
