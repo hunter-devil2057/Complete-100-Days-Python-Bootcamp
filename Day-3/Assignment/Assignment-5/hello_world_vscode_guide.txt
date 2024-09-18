@@ -1,0 +1,78 @@
+Create a step-by-step guide for writing and executing a "Hello World" program using Visual Studio Code (VS Code).
+
+Step 1: Install Python
+Before you start, ensure Python is installed on your system:
+1. Download Python:
+   - Go to the [official Python website](https://www.python.org/downloads/).
+   - Download the latest version of Python for Windows.
+
+2. Install Python:
+   - Run the downloaded installer.
+   - **Important:** Check the box labeled "Add Python to PATH" before clicking "Install Now."
+   - Complete the installation process by following the prompts.
+
+
+Step 2: Install Visual Studio Code (VS Code)
+If you don’t have VS Code installed:
+
+1. Download VS Code:
+   - Go to the [VS Code website](https://code.visualstudio.com/).
+   - Download the installer for Windows.
+
+2. Install VS Code:
+   - Run the downloaded installer and follow the prompts to install VS Code on your system.
+
+
+Step 3: Install the Python Extension for VS Code
+
+1. Open VS Code:
+   - Launch Visual Studio Code from your Start menu or desktop shortcut.
+
+2. Open Extensions View:
+   - Click on the Extensions view icon in the Sidebar (or press `Ctrl + Shift + X`).
+
+3. Search for Python Extension:
+   - Type "Python" in the search bar and select the Python extension provided by Microsoft from the search results.
+
+4. Install the Extension:
+   - Click the `Install` button to add the Python extension to VS Code.
+
+
+Step 4: Create and Write the "Hello World" Program
+
+1. Open a New File:
+   - Go to `File` > `New File` (or press `Ctrl + N`).
+
+2. Write the Code:
+   - Type the following Python code in the new file:
+     print("Hello, World!")
+   - This code prints "Hello, World!" to the screen.
+
+3. Save the File:
+   - Go to `File` > `Save As...` (or press `Ctrl + S`).
+   - In the Save As dialog:
+     - Select Location: Choose a directory where you want to save the file, such as `C:\Users\YourUsername\Documents`.
+     - File Name: Enter `hello.py` (make sure the file extension is `.py`).
+     - Save as Type: Ensure it is set to `All Files` (not `Text Documents`).
+   - Click `Save`.
+
+
+Step 5: Run the Python Program
+
+1. Open the Terminal in VS Code:
+   - Go to `Terminal` > `New Terminal` (or press `Ctrl + ` `).
+
+2. Navigate to Your File Directory (if needed):
+   - If your terminal does not start in the directory where `hello.py` is saved, use the `cd` command to navigate to the correct directory. For example:
+     cd C:\Users\YourUsername\Documents
+   - Replace `YourUsername` with your actual Windows username.
+
+3. Run the Python Program:
+   - In the terminal, type the following command and press `Enter`:
+     python hello.py
+   - Alternatively, if your Python executable is named differently (e.g., `python3`), use that command:
+     python3 hello.py
+
+4. View the Output:
+   - You should see the output:
+     Hello, World!
