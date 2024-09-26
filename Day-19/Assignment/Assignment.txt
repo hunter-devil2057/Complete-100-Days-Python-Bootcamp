@@ -1,0 +1,13 @@
+1. What is List? 
+    - List is a collection of elements of any data types which is enclosed by []. 
+    - It is mutable. 
+2. What is Mutable and Immutable Data Types in Python?
+    Mutable: It's data can be modified/changed. 
+    Immutable: It's data cannot be changed/modified. 
+What means of Logical Operator?
+    - Less Than or Equal to (<=)
+    - Greater Than or Equal to (>=)
+
+Write a Python Program to create a dictionary.
+myDict={"Milk": 150, "Bread": 80, "Cheese": 110, "Egg": 40}
+print(myDict)
